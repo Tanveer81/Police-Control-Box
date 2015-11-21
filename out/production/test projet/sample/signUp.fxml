@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUpController">
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Region prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <HBox prefHeight="253.0" prefWidth="600.0">
+                    <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Image/DMP%20logo.png" />
+                     </image>
+                  </ImageView>
+                        <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <VBox prefHeight="229.0" prefWidth="123.0" spacing="18.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Voter ID" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Faher's Name" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Re Enter Password" />
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="9.0">
+                            <children>
+                                <TextField />
+                                <TextField />
+                                <TextField />
+                                <TextField />
+                                <PasswordField />
+                                <PasswordField />
+                                <Button fx:id="signUp" mnemonicParsing="false" onAction="#loginAction" text="Sign Up" />
+                            </children>
+                        </VBox>
+                        <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                    </children>
+                </HBox>
+                <Region prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <Region prefHeight="200.0" prefWidth="200.0" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

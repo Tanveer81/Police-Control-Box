@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUpController">
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Region prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <HBox prefHeight="253.0" prefWidth="600.0">
+                    <children>
+                        <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <VBox prefHeight="229.0" prefWidth="123.0" spacing="18.0" />
+                        <VBox prefHeight="229.0" prefWidth="254.0" spacing="9.0">
+                            <children>
+                                <TextField promptText="Name" />
+                                <TextField promptText="Voter Id" />
+                                <TextField promptText="Faher's Name" />
+                                <TextField promptText="Mother's name" />
+                                <PasswordField promptText="Password" />
+                                <PasswordField promptText="Re enter Passsword" />
+                                <Button fx:id="signUp" mnemonicParsing="false" onAction="#loginAction" text="Sign Up" />
+                            </children>
+                        </VBox>
+                        <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                    </children>
+                </HBox>
+                <Region prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <Region prefHeight="200.0" prefWidth="200.0" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
