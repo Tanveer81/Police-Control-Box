@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0">
+         <children>
+            <Button layoutX="92.0" layoutY="318.0" mnemonicParsing="false" text="Contacts" />
+            <Button layoutX="85.0" layoutY="360.0" mnemonicParsing="false" text="Developers" />
+            <Text layoutX="832.0" layoutY="582.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By Dept of CSE,BUET" wrappingWidth="127.07666015625">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Text>
+            <Text layoutX="229.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notice : All residence are told to stay in their home after midnight due to recent terrorist activities.Thank you for your cooperation." wrappingWidth="731.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@DMP%20logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="MyPost" layoutX="88.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="All  Posts" />
+            <Button layoutX="97.0" layoutY="235.0" mnemonicParsing="false" text="Home" />
+            <Text layoutX="266.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Information" />
+            <Text layoutX="266.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+            <Text layoutX="266.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VoterID" />
+            <Text layoutX="266.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name" />
+            <Text layoutX="266.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name" />
+            <Text layoutX="266.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text layoutX="266.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text layoutX="266.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text layoutX="266.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
