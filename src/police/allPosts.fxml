@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="police.allPostsController">
+    <children>
+        <TableView fx:id="allPosts" layoutX="219.0" layoutY="172.0" prefHeight="406.0" prefWidth="731.0">
+            <columns>
+                <TableColumn prefWidth="100.0" text="User Name" />
+                <TableColumn prefWidth="630.0" text="Post" />
+            </columns></TableView>
+        <TextArea fx:id="postText" layoutX="219.0" layoutY="70.0" prefHeight="64.0" prefWidth="731.0" promptText="Write your post here..." />
+        <Button fx:id="postButton" layoutX="911.0" layoutY="139.0" mnemonicParsing="false" onAction="#sendPost" text="Post" />
+        <Button fx:id="users" layoutX="75.0" layoutY="263.0" mnemonicParsing="false" onAction="#showUsers" prefHeight="25.0" prefWidth="77.0" text="Users" />
+        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+        <Text fx:id="notice" layoutX="219.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notice : All residence are told to stay in their home after midnight due to recent terrorist activities.Thank you for your cooperation." wrappingWidth="731.0" />
+        <Text layoutX="822.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By Dept of CSE,BUET">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Text>
+        <Button fx:id="developers" layoutX="75.0" layoutY="350.0" mnemonicParsing="false" onAction="#showDevelopers" text="Developers" />
+        <Button fx:id="contacts" layoutX="82.0" layoutY="308.0" mnemonicParsing="false" onAction="#showContacts" text="Contacts" />
+        <Button fx:id="noticeButton" layoutX="88.0" layoutY="393.0" mnemonicParsing="false" onAction="#updateNotice" text="Notice" />
+      <Button fx:id="home" layoutX="87.0" layoutY="218.0" mnemonicParsing="false" onAction="#showHome" text="Home" />
+    </children>
+</AnchorPane>

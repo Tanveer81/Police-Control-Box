@@ -5,7 +5,7 @@ package police;/**
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-public class police extends Application {
+public class Police extends Application {
 
     public static void main(String[] args) {
         launch(args);

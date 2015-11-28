@@ -8,9 +8,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
-
-public class policeHomeControl {
-
+public class allPostsController {
     Main main;
     void setMain(Main main){
         this.main=main;
@@ -18,8 +16,13 @@ public class policeHomeControl {
         dmpImage.setImage(img);
     }
 
+
+
     @FXML
     private TextArea postText;
+
+    @FXML
+    private Button noticeButton;
 
     @FXML
     private Button developers;
@@ -44,14 +47,6 @@ public class policeHomeControl {
 
     @FXML
     private Button home;
-
-    @FXML
-    private Button noticeButton;
-
-    @FXML
-    private Button allPostsButton;
-
-
 
     @FXML
     void sendPost(ActionEvent event) {
@@ -95,11 +90,12 @@ public class policeHomeControl {
     }
 
     @FXML
-    void showAllPosts(ActionEvent event) {
+    void showHome(ActionEvent event) {
         try {
-            main.showNotice();
+            main.showPoliceHome();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
 }

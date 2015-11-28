@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="police.developerController">
+    <children>
+        <TableView fx:id="newsFeed" layoutX="219.0" layoutY="172.0" prefHeight="406.0" prefWidth="731.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Column X" />
+                <TableColumn prefWidth="576.0" text="Column X" />
+                <TableColumn minWidth="0.0" prefWidth="64.0" text="Column X" />
+            </columns></TableView>
+        <TextArea fx:id="postText" layoutX="219.0" layoutY="70.0" prefHeight="64.0" prefWidth="731.0" promptText="Write your post here..." />
+        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+        <Text fx:id="notice" layoutX="219.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notice : All residence are told to stay in their home after midnight due to recent terrorist activities.Thank you for your cooperation." wrappingWidth="731.0" />
+        <Text layoutX="822.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By Dept of CSE,BUET">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Text>
+      <Button fx:id="noticeButton" layoutX="98.0" layoutY="403.0" mnemonicParsing="false" onAction="#updateNotice" text="Notice" />
+      <Button fx:id="contacts" layoutX="92.0" layoutY="318.0" mnemonicParsing="false" onAction="#showContacts" text="Contacts" />
+      <Button fx:id="home" layoutX="99.0" layoutY="234.0" mnemonicParsing="false" onAction="#showDevelopers" text="Home" />
+      <Button fx:id="users" layoutX="85.0" layoutY="363.0" mnemonicParsing="false" onAction="#showUsers" prefHeight="25.0" prefWidth="77.0" text="Users" />
+      <Button fx:id="allPosts" layoutX="88.0" layoutY="274.0" mnemonicParsing="false" onAction="#showAllPosts" prefHeight="25.0" prefWidth="77.0" text="All  Posts" />
+    </children>
+</AnchorPane>

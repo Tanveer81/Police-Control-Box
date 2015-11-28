@@ -1,5 +1,7 @@
 package police;
 
+import javafx.scene.image.Image;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -9,8 +11,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class policeHomeControl {
-
+public class singleUserControl {
     Main main;
     void setMain(Main main){
         this.main=main;
@@ -19,7 +20,10 @@ public class policeHomeControl {
     }
 
     @FXML
-    private TextArea postText;
+    private Button noticeButton;
+
+    @FXML
+    private Text occupation;
 
     @FXML
     private Button developers;
@@ -28,35 +32,37 @@ public class policeHomeControl {
     private ImageView dmpImage;
 
     @FXML
-    private TableView<?> allPosts;
+    private Button allPosts;
 
     @FXML
-    private Button postButton;
+    private Button home;
 
     @FXML
-    private Button users;
+    private Text religion;
+
+    @FXML
+    private Text fName;
+
+    @FXML
+    private Text presentAddress;
+
+    @FXML
+    private Text name;
+
+    @FXML
+    private Text voterID;
+
+    @FXML
+    private Text permanentAddress;
+
+    @FXML
+    private Text mName;
 
     @FXML
     private Button contacts;
 
     @FXML
     private Text notice;
-
-    @FXML
-    private Button home;
-
-    @FXML
-    private Button noticeButton;
-
-    @FXML
-    private Button allPostsButton;
-
-
-
-    @FXML
-    void sendPost(ActionEvent event) {
-
-    }
 
     @FXML
     void showUsers(ActionEvent event) {
@@ -95,11 +101,22 @@ public class policeHomeControl {
     }
 
     @FXML
-    void showAllPosts(ActionEvent event) {
+    void showHome(ActionEvent event) {
         try {
-            main.showNotice();
+            main.showPoliceHome();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    void showAllPosts(ActionEvent event) {
+        try {
+            main.showAllPosts();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

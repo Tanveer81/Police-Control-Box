@@ -1,5 +1,6 @@
 package police;
 
+import javafx.scene.image.Image;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -9,8 +10,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class policeHomeControl {
-
+public class noticeController {
     Main main;
     void setMain(Main main){
         this.main=main;
@@ -28,7 +28,10 @@ public class policeHomeControl {
     private ImageView dmpImage;
 
     @FXML
-    private TableView<?> allPosts;
+    private Button allPosts;
+
+    @FXML
+    private TableView<?> newsFeed;
 
     @FXML
     private Button postButton;
@@ -46,15 +49,10 @@ public class policeHomeControl {
     private Button home;
 
     @FXML
-    private Button noticeButton;
+    private Button updateNotice;
 
     @FXML
-    private Button allPostsButton;
-
-
-
-    @FXML
-    void sendPost(ActionEvent event) {
+    void updateNotice(ActionEvent event) {
 
     }
 
@@ -86,9 +84,9 @@ public class policeHomeControl {
     }
 
     @FXML
-    void updateNotice(ActionEvent event) {
+    void showHome(ActionEvent event) {
         try {
-            main.showNotice();
+            main.showPoliceHome();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -97,7 +95,7 @@ public class policeHomeControl {
     @FXML
     void showAllPosts(ActionEvent event) {
         try {
-            main.showNotice();
+            main.showAllPosts();
         } catch (Exception e) {
             e.printStackTrace();
         }
