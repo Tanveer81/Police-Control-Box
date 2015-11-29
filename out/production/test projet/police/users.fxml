@@ -26,6 +26,5 @@
       <Text layoutX="333.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Users" textAlignment="CENTER" wrappingWidth="114.0" />
       <Line endX="55.0" layoutX="390.0" layoutY="40.0" startX="-55.0" />
       <Line endX="55.0" layoutX="390.0" layoutY="65.0" startX="-55.0" />
-      <Label layoutX="159.0" layoutY="283.0" onMouseClicked="#showHome" prefHeight="25.0" prefWidth="36.0" text="home" />
    </children>
 </Pane>

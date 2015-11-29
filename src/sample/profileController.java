@@ -1,64 +1,66 @@
 package sample;
 
-/**
- * Created by emon on 11/27/2015.
- */
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class HomeController {
+public class profileController {
     private Main main;
     public void setMain(Main main)
     {
         this.main=main;
     }
-    @FXML
-    private Button Home;
-    public void sendpost(){
-        NetworkUtil nu=main.client.nc;
-        Person p=main.p;
-        p.setMood("post");
-        p.setClientpost(postText.getText());
-        new WriteThread(nu,p);
-    }
-    @FXML
-    private Button postButton;
 
-    @FXML
-    private TextArea postText;
 
     @FXML
     private Button noticeButton;
 
     @FXML
-    private MenuButton post;
-
-    @FXML
-    private Button developers;
-
-    @FXML
-    private Button profile;
+    private Text occupation;
 
     @FXML
     private ImageView dmpImage;
 
     @FXML
-    private TableView<?> allPosts;
+    private Button allPosts;
+
+    @FXML
+    private Text mobileNo;
+
+    @FXML
+    private Button home;
+
+    @FXML
+    private Text religion;
+
+    @FXML
+    private Text fName;
+
+    @FXML
+    private Text presentAddress;
+
+    @FXML
+    private Text voterID;
+
+    @FXML
+    private Text name;
+
+    @FXML
+    private Button developer;
+
+    @FXML
+    private Text permanentAddress;
+
+    @FXML
+    private Text mName;
 
     @FXML
     private Button contacts;
 
     @FXML
     private Text notice;
-
-    @FXML
-    private Button allPostsButton;
 
     @FXML
     void showContacts(ActionEvent event) {
@@ -105,15 +107,5 @@ public class HomeController {
         }
     }
 
-    @FXML
-    void showProfile(ActionEvent event) {
-        try {
-            main.showProfile();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
 
 }
-

@@ -1,64 +1,58 @@
 package sample;
 
-/**
- * Created by emon on 11/27/2015.
- */
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.MenuButton;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class HomeController {
-    private Main main;
-    public void setMain(Main main)
-    {
+public class contactsController {
+    Main main;
+    void setMain(Main main){
         this.main=main;
+        //Image img = new Image(police.Main.class.getResourceAsStream("DMP logo.png"));
+       // dmpImage.setImage(img);
     }
-    @FXML
-    private Button Home;
-    public void sendpost(){
-        NetworkUtil nu=main.client.nc;
-        Person p=main.p;
-        p.setMood("post");
-        p.setClientpost(postText.getText());
-        new WriteThread(nu,p);
-    }
-    @FXML
-    private Button postButton;
-
-    @FXML
-    private TextArea postText;
-
-    @FXML
-    private Button noticeButton;
-
-    @FXML
-    private MenuButton post;
-
-    @FXML
-    private Button developers;
-
-    @FXML
-    private Button profile;
-
-    @FXML
-    private ImageView dmpImage;
-
-    @FXML
-    private TableView<?> allPosts;
-
-    @FXML
-    private Button contacts;
 
     @FXML
     private Text notice;
 
     @FXML
-    private Button allPostsButton;
+    private TextArea postText;
+
+    @FXML
+    private Button developers;
+
+    @FXML
+    private ImageView dmpImage;
+
+    @FXML
+    private Button allPosts;
+
+    @FXML
+    private Button home;
+
+    @FXML
+    private TableView<?> newsFeed;
+
+    @FXML
+    private Button postButton;
+
+    @FXML
+    private Button users;
+
+    @FXML
+    private Button contacts;
+
+    @FXML
+    private Button noticeButton;
+
+    @FXML
+    void sendPost(ActionEvent event) {
+
+    }
 
     @FXML
     void showContacts(ActionEvent event) {
@@ -113,7 +107,4 @@ public class HomeController {
             e.printStackTrace();
         }
     }
-
-
 }
-

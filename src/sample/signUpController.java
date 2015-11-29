@@ -9,30 +9,25 @@ import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
-/**
- * Created by emon on 11/27/2015.
- */
 public class signUpController {
+
     private Main main;
     @FXML
     private TextField vid;
-
     @FXML
     private TextField fname;
-
     @FXML
     private PasswordField repword;
-
     @FXML
     private TextField name;
-
     @FXML
     private PasswordField pword;
-
     @FXML
     private TextField mname;
     @FXML
     private Button signUp;
+    @FXML
+    private Button home;
     @FXML
     private TextField address;
     @FXML
@@ -82,5 +77,15 @@ public class signUpController {
             e.printStackTrace();
         }
 
+    }
+
+    @FXML
+    void showHome(ActionEvent event) {
+        try {
+            main.showLogIn();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        ;
     }
 }
