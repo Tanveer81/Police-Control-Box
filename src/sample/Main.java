@@ -1,74 +1,65 @@
 package sample;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.scene.layout.FlowPane;
-import javafx.scene.control.Label;
+import sample.logInController;
 
-import java.io.IOException;
-
-import static javafx.stage.Stage.*;
+import java.util.ArrayList;
 
 public class Main extends Application {
 
     Stage stage;
-
+    public ArrayList<String> message=new ArrayList<String>();
+    public String mood;
+    public Client client;
+    public Person p;
+    //public  MessageController mcontroller;
+    //public SampleController scontroller;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        // XML Loading using FXMLLoader
-
         stage = primaryStage;
-        primaryStage.setTitle("Police control box");
+        client=new Client();
+        p=new Person();
+        showLogIn();
+    }
+
+    public void showLogIn() throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("logIn.fxml"));
+        loader.setLocation(getClass().getResource("Login.fxml"));
         Parent root = loader.load();
-
-        // Loading the controller
         logInController controller = loader.getController();
+        //scontroller=controller;
+        stage.setTitle("Client");
+        stage.setScene(new Scene(root, 1000, 600));
+        stage.show();
         controller.setMain(this);
-        Scene scene1=new Scene (root,1000,600);
-        stage.setScene(scene1);
-        primaryStage.show();
     }
 
-   /* public void showLogIn() throws IOException {
+    public void showSignUp() throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("logIn.fxml"));
+        loader.setLocation(getClass().getResource("Signup.fxml"));
         Parent root = loader.load();
-
-        // Loading the controller
-        logInController controller = loader.getController();
-        controller.setMain(this);
-        Scene scene1=new Scene (root,1000,600);
-        stage.setScene(scene1);
+        signUpController controller = loader.getController();
+        //mcontroller=controller;
+        stage.setTitle("Client");
+        stage.setScene(new Scene(root, 1000, 600));
         stage.show();
-        // Set the primary stage
-        //
-
-    }
-    public void showSignUp(){
-        // XML Loading using FXMLLoader
-        FXMLLoader loader2 = new FXMLLoader();
-        loader2.setLocation(getClass().getResource("signUp.fxml"));
-        Parent root2 = null;
-        try {
-            root2 = loader2.load();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        signUpController controller = loader2.getController();
         controller.setMain(this);
-        Scene scene2 = new Scene(root2, 1000, 600);
-        //stage.hide();//optional
-        stage.setScene(scene2);
-        stage.show();
-
-
     }
-*/
+    public void showHome() throws Exception {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("Home.fxml"));
+        Parent root = loader.load();
+        HomeController controller = loader.getController();
+        //mcontroller=controller;
+        stage.setTitle("Client");
+        stage.setScene(new Scene(root, 1000, 600));
+        stage.show();
+        controller.setMain(this);
+    }
+
     public static void main(String[] args) {
         launch(args);
     }

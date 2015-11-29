@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\policeHomeControl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\singleUserControl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\usersControl.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\policeHomeControl.java" afterPath="$PROJECT_DIR$/src/police/policeHomeController.java" />
-      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\singleUserControl.java" afterPath="$PROJECT_DIR$/src/police/singleUserController.java" />
-      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\usersControl.java" afterPath="$PROJECT_DIR$/src/police/usersController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/Main.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/allPostsController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/allPostsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/contactsController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/contactsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/developerController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/developerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/noticeController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/noticeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/Main.java" afterPath="$PROJECT_DIR$/src/police/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/allPosts.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/allPosts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/allPosts.fxml" afterPath="$PROJECT_DIR$/src/police/allPosts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/allPostsController.java" afterPath="$PROJECT_DIR$/src/police/allPostsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/contacts.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/contacts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/contacts.fxml" afterPath="$PROJECT_DIR$/src/police/contacts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/contactsController.java" afterPath="$PROJECT_DIR$/src/police/contactsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/developer.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/developer.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/developer.fxml" afterPath="$PROJECT_DIR$/src/police/developer.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/developerController.java" afterPath="$PROJECT_DIR$/src/police/developerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/home.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/home.fxml" afterPath="$PROJECT_DIR$/src/police/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/notice.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/notice.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/notice.fxml" afterPath="$PROJECT_DIR$/src/police/notice.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/noticeController.java" afterPath="$PROJECT_DIR$/src/police/noticeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/singleUser.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/singleUser.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/singleUser.fxml" afterPath="$PROJECT_DIR$/src/police/singleUser.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/users.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/users.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/users.fxml" afterPath="$PROJECT_DIR$/src/police/users.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -124,8 +91,8 @@
       <file leaf-file-name="usersController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/police/usersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5811966" vertical-offset="663" max-vertical-offset="1751">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.2905983" vertical-offset="663" max-vertical-offset="1751">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -635,15 +602,15 @@
       <workItem from="1448722696853" duration="7932000" />
       <workItem from="1448732390961" duration="841000" />
       <workItem from="1448733824912" duration="4196000" />
-      <workItem from="1448768623019" duration="2496000" />
+      <workItem from="1448768623019" duration="2755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28752000" />
+    <option name="totallyTimeSpent" value="29011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1167,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/usersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5811966" vertical-offset="663" max-vertical-offset="1751">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.2905983" vertical-offset="663" max-vertical-offset="1751">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
