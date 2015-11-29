@@ -4,19 +4,18 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.chart.BarChart;
-import javafx.scene.chart.CategoryAxis;
-import javafx.scene.chart.NumberAxis;
-import javafx.scene.chart.XYChart;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import javafx.scene.layout.FlowPane;
-import javafx.scene.control.Label;
-
-import java.io.File;
 
 public class Main extends Application {
     Stage stage;
+    policeHomeController homeControl;
+    allPostsController allPostControl;
+    developerController developerControl;
+    noticeController noticeControl;
+    usersController usersControl;
+    singleUserController singleUserControl;
+    contactsController contactsControl;
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -34,8 +33,10 @@ public class Main extends Application {
         Parent root = loader.load();
 
         // Loading the controller
-        policeHomeControl controller = loader.getController();
+        policeHomeController controller = loader.getController();
         controller.setMain(this);
+        controller.setMain(this);
+        homeControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -50,8 +51,10 @@ public class Main extends Application {
         Parent root = loader.load();
 
         // Loading the controller
-        usersControl controller = loader.getController();
+        usersController controller = loader.getController();
         controller.setMain(this);
+        controller.setMain(this);
+        usersControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -66,8 +69,10 @@ public class Main extends Application {
         Parent root = loader.load();
 
         // Loading the controller
-        singleUserControl controller = loader.getController();
+        singleUserController controller = loader.getController();
         controller.setMain(this);
+        controller.setMain(this);
+        singleUserControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -84,6 +89,8 @@ public class Main extends Application {
         // Loading the controller
         allPostsController controller = loader.getController();
         controller.setMain(this);
+        controller.setMain(this);
+        allPostControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -100,6 +107,7 @@ public class Main extends Application {
         // Loading the controller
         contactsController controller = loader.getController();
         controller.setMain(this);
+        contactsControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -116,6 +124,7 @@ public class Main extends Application {
         // Loading the controller
         developerController controller = loader.getController();
         controller.setMain(this);
+        developerControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
@@ -132,6 +141,7 @@ public class Main extends Application {
         // Loading the controller
         noticeController controller = loader.getController();
         controller.setMain(this);
+        noticeControl=controller;
 
         // Set the primary stage
         stage.setTitle("Police Control Box");

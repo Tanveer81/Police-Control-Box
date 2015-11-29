@@ -12,7 +12,7 @@ public class developerController {
     Main main;
     void setMain(Main main){
         this.main=main;
-        Image img = new Image(sample.Main.class.getResourceAsStream("DMP logo.png"));
+        Image img = new Image(police.Main.class.getResourceAsStream("DMP logo.png"));
         dmpImage.setImage(img);
     }
 
@@ -24,6 +24,9 @@ public class developerController {
 
     @FXML
     private ImageView dmpImage;
+
+    @FXML
+    private ImageView bmp;
 
     @FXML
     private Button allPosts;

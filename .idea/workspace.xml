@@ -2,21 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/allPosts.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/allPostsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/contacts.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/contactsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/developer.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/developerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/notice.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/noticeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/singleUserControl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/police/usersControl.java" />
-      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\policeHome.fxml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\police.java" afterPath="$PROJECT_DIR$/src/police/Police.java" />
+      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\policeHomeControl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\singleUserControl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\out\production\test projet\police\usersControl.class" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\policeHomeControl.java" afterPath="$PROJECT_DIR$/src/police/policeHomeController.java" />
+      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\singleUserControl.java" afterPath="$PROJECT_DIR$/src/police/singleUserController.java" />
+      <change type="MOVED" beforePath="C:\Users\Hp\IdeaProjects\Police Control Box\src\police\usersControl.java" afterPath="$PROJECT_DIR$/src/police/usersController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/Main.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/allPostsController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/allPostsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/contactsController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/contactsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/developerController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/developerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/noticeController.class" afterPath="$PROJECT_DIR$/out/production/test projet/police/noticeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/Main.java" afterPath="$PROJECT_DIR$/src/police/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/policeHomeControl.java" afterPath="$PROJECT_DIR$/src/police/policeHomeControl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/allPosts.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/allPosts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/allPosts.fxml" afterPath="$PROJECT_DIR$/src/police/allPosts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/allPostsController.java" afterPath="$PROJECT_DIR$/src/police/allPostsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/contacts.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/contacts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/contacts.fxml" afterPath="$PROJECT_DIR$/src/police/contacts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/contactsController.java" afterPath="$PROJECT_DIR$/src/police/contactsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/developer.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/developer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/developer.fxml" afterPath="$PROJECT_DIR$/src/police/developer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/developerController.java" afterPath="$PROJECT_DIR$/src/police/developerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/home.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/home.fxml" afterPath="$PROJECT_DIR$/src/police/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/notice.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/notice.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/notice.fxml" afterPath="$PROJECT_DIR$/src/police/notice.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/noticeController.java" afterPath="$PROJECT_DIR$/src/police/noticeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/singleUser.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/singleUser.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/singleUser.fxml" afterPath="$PROJECT_DIR$/src/police/singleUser.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/test projet/police/users.fxml" afterPath="$PROJECT_DIR$/out/production/test projet/police/users.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/police/users.fxml" afterPath="$PROJECT_DIR$/src/police/users.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -82,21 +97,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/police/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6803419" vertical-offset="10" max-vertical-offset="595">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2686">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <element signature="method#start#0;class#Main#0" expanded="false" />
-                <element signature="method#showPoliceHome#0;class#Main#0" expanded="false" />
-                <element signature="method#showUsers#0;class#Main#0" expanded="false" />
-                <element signature="method#showSingleUser#0;class#Main#0" expanded="false" />
-                <element signature="method#showAllPosts#0;class#Main#0" expanded="false" />
-                <element signature="method#showContacts#0;class#Main#0" expanded="false" />
-                <element signature="method#showDevelopers#0;class#Main#0" expanded="false" />
-                <element signature="method#showNotice#0;class#Main#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4655#4656#0" expanded="false" />
+                <element signature="e#4683#4684#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="developerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/police/developerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1887">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usersController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/police/usersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.5811966" vertical-offset="663" max-vertical-offset="1751">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,20 +162,21 @@
         <option value="$PROJECT_DIR$/src/police/contactsControl.java" />
         <option value="$PROJECT_DIR$/src/police/policeHome.fxml" />
         <option value="$PROJECT_DIR$/src/police/singleUser.fxml" />
-        <option value="$PROJECT_DIR$/src/police/allPostsController.java" />
-        <option value="$PROJECT_DIR$/src/police/developerController.java" />
-        <option value="$PROJECT_DIR$/src/police/singleUserControl.java" />
-        <option value="$PROJECT_DIR$/src/police/usersControl.java" />
-        <option value="$PROJECT_DIR$/src/police/contactsController.java" />
         <option value="$PROJECT_DIR$/src/police/contcts.fxml" />
-        <option value="$PROJECT_DIR$/src/police/notice.fxml" />
-        <option value="$PROJECT_DIR$/src/police/noticeController.java" />
-        <option value="$PROJECT_DIR$/src/police/policeHomeControl.java" />
         <option value="$PROJECT_DIR$/src/police/home.fxml" />
         <option value="$PROJECT_DIR$/src/police/users.fxml" />
         <option value="$PROJECT_DIR$/src/police/developer.fxml" />
-        <option value="$PROJECT_DIR$/src/police/Main.java" />
         <option value="$PROJECT_DIR$/src/police/allPosts.fxml" />
+        <option value="$PROJECT_DIR$/src/police/contactsController.java" />
+        <option value="$PROJECT_DIR$/src/police/policeHomeControl.java" />
+        <option value="$PROJECT_DIR$/src/police/allPostsController.java" />
+        <option value="$PROJECT_DIR$/src/police/noticeController.java" />
+        <option value="$PROJECT_DIR$/src/police/singleUserControl.java" />
+        <option value="$PROJECT_DIR$/src/police/usersControl.java" />
+        <option value="$PROJECT_DIR$/src/police/Main.java" />
+        <option value="$PROJECT_DIR$/src/police/notice.fxml" />
+        <option value="$PROJECT_DIR$/src/police/developerController.java" />
+        <option value="$PROJECT_DIR$/src/police/usersController.java" />
       </list>
     </option>
   </component>
@@ -260,7 +291,10 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="F:/Java/JavaFX/JavaFX/JavaFX Simple Login/JavaFXLoginSimple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled4" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -600,15 +634,17 @@
       <workItem from="1448687612393" duration="16000" />
       <workItem from="1448722696853" duration="7932000" />
       <workItem from="1448732390961" duration="841000" />
+      <workItem from="1448733824912" duration="4196000" />
+      <workItem from="1448768623019" duration="2496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22060000" />
+    <option name="totallyTimeSpent" value="28752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,7 +657,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.71288747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2397882" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
@@ -669,6 +705,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/police/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4655#4656#0" expanded="false" />
+            <element signature="e#4683#4684#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
@@ -677,25 +725,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="884">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logInController.java">
@@ -720,25 +768,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="969">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logInController.java">
@@ -763,25 +811,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="969">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logInController.java">
@@ -806,25 +854,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="969">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logInController.java">
@@ -849,25 +897,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="969">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="969">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/logInController.java">
@@ -920,47 +968,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/2.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.766666" vertical-offset="0" max-vertical-offset="731">
           <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/1.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/1.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/signUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15682657" vertical-offset="51" max-vertical-offset="731">
           <caret line="8" column="206" selection-start-line="8" selection-start-column="206" selection-end-line="8" selection-end-column="246" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/logIn.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6666665" vertical-offset="17" max-vertical-offset="884">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/Person.java">
@@ -971,83 +1019,75 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/singleUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71771216" vertical-offset="70" max-vertical-offset="867">
           <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/singleUserControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36068377" vertical-offset="1387" max-vertical-offset="2176">
-          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/allPostsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85470086" vertical-offset="1183" max-vertical-offset="1819">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/noticeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1853">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/notice.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5295203" vertical-offset="53" max-vertical-offset="663">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/home.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9409594" vertical-offset="0" max-vertical-offset="663">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/users.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/users.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6236162" vertical-offset="2" max-vertical-offset="544">
           <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/contacts.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/usersControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52987015" vertical-offset="612" max-vertical-offset="1751">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.43542436" vertical-offset="121" max-vertical-offset="663">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/allPosts.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5608856" vertical-offset="19" max-vertical-offset="646">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/developer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.966666" vertical-offset="87" max-vertical-offset="714">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/allPostsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1819">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1056,83 +1096,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/contactsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1285" max-vertical-offset="1870">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/policeHomeControl.java">
+    <entry file="file://$PROJECT_DIR$/src/police/policeHomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1096" max-vertical-offset="1887">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/singleUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="2176">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2686">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4655#4656#0" expanded="false" />
+            <element signature="e#4683#4684#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/notice.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53216374" vertical-offset="158" max-vertical-offset="731">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/police/noticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38181818" vertical-offset="1315" max-vertical-offset="1853">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/police/developerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30769232" vertical-offset="1251" max-vertical-offset="1836">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/developer.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6236162" vertical-offset="104" max-vertical-offset="646">
-          <caret line="26" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1887">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/contacts.fxml">
+    <entry file="file://$PROJECT_DIR$/src/police/usersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43542436" vertical-offset="121" max-vertical-offset="663">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state vertical-scroll-proportion="-0.5811966" vertical-offset="663" max-vertical-offset="1751">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/allPosts.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5608856" vertical-offset="19" max-vertical-offset="646">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/police/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6803419" vertical-offset="10" max-vertical-offset="595">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="method#showPoliceHome#0;class#Main#0" expanded="false" />
-            <element signature="method#showUsers#0;class#Main#0" expanded="false" />
-            <element signature="method#showSingleUser#0;class#Main#0" expanded="false" />
-            <element signature="method#showAllPosts#0;class#Main#0" expanded="false" />
-            <element signature="method#showContacts#0;class#Main#0" expanded="false" />
-            <element signature="method#showDevelopers#0;class#Main#0" expanded="false" />
-            <element signature="method#showNotice#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test projet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

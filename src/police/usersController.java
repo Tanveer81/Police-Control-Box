@@ -8,11 +8,11 @@ import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class usersControl {
+public class usersController {
     Main main;
     void setMain(Main main){
         this.main=main;
-        Image img = new Image(sample.Main.class.getResourceAsStream("DMP logo.png"));
+        Image img = new Image(police.Main.class.getResourceAsStream("DMP logo.png"));
         dmpImage.setImage(img);
     }
 
