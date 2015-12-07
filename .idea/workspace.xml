@@ -294,7 +294,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="E:/JavaDB/JavaDB" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Police Control Box" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -636,12 +636,12 @@
       <workItem from="1449378064648" duration="2093000" />
       <workItem from="1449418570856" duration="1067000" />
       <workItem from="1449483573127" duration="338000" />
-      <workItem from="1449496928090" duration="15000" />
+      <workItem from="1449496928090" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20544000" />
+    <option name="totallyTimeSpent" value="20654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
