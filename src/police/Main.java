@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import util.Person;
 
 public class Main extends Application {
     Stage stage;
@@ -15,12 +16,18 @@ public class Main extends Application {
     usersController usersControl;
     singleUserController singleUserControl;
     contactsController contactsControl;
+    Person P;
+    Boolean hasGot=false;
 
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         stage = primaryStage;
-        try{showPoliceHome();}
+        try{
+            showPoliceHome();
+            Thread thr = new Thread(new Server(this));
+            thr.start();
+        }
         catch(Exception e){
             System.out.println(e);
         }

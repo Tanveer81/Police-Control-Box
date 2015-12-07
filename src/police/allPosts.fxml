@@ -19,7 +19,7 @@
         <TextArea fx:id="postText" layoutX="219.0" layoutY="115.0" prefHeight="59.0" prefWidth="731.0" promptText="Write your post here..." />
         <Button fx:id="postButton" layoutX="910.0" layoutY="177.0" mnemonicParsing="false" onAction="#sendPost" text="Post" />
         <Button fx:id="users" layoutX="333.0" layoutY="40.0" mnemonicParsing="false" onAction="#showUsers" prefHeight="25.0" prefWidth="114.0" text="Users" />
-        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@DMP%20logo.png" />
          </image></ImageView>

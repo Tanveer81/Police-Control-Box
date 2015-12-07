@@ -11,7 +11,7 @@
 <AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="police.developerController">
     <children>
         <TextArea fx:id="postText" layoutX="219.0" layoutY="115.0" prefHeight="59.0" prefWidth="731.0" promptText="Write your post here..." />
-        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="dmpImage" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
         <Text fx:id="notice" layoutX="219.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notice : All residence are told to stay in their home after midnight due to recent terrorist activities.Thank you for your cooperation." wrappingWidth="731.0" />
         <Text layoutX="822.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By Dept of CSE,BUET">
             <font>
