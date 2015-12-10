@@ -1,5 +1,9 @@
 package server;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -9,8 +13,26 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import javafx.util.Callback;
+import util.NetworkUtil;
 
-public class policeHomeController {
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.util.Enumeration;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import javafx.application.Application;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.scene.Scene;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.CellDataFeatures;
+import javafx.scene.control.TableView;
+import javafx.stage.Stage;
+import javafx.util.Callback;
+
+public class homeController {
     Main main;
     void setMain(Main main){
         this.main=main;
@@ -19,10 +41,10 @@ public class policeHomeController {
     }
 
     @FXML
-    private TextArea postText;
+    public TextArea postText;
 
     @FXML
-    private Button developers;
+     Button developers;
 
     @FXML
     private ImageView dmpImage;
@@ -31,25 +53,29 @@ public class policeHomeController {
     public TableView<Data> allPosts;
 
     @FXML
-    private Button postButton;
+    public TableView<Data> usersonline;
 
     @FXML
-    private Button users;
+     Button postButton;
 
     @FXML
-    private Button contacts;
+     Button users;
 
     @FXML
-    private Text notice;
+     Button contacts;
 
     @FXML
-    private Button home;
+     public Text notice;
 
     @FXML
-    private Button noticeButton;
+     Button home;
 
     @FXML
-    private Button allPostsButton;
+     Button noticeButton;
+
+    @FXML
+     Button allPostsButton;
+
 
 
 
@@ -88,7 +114,19 @@ public class policeHomeController {
     @FXML
     void updateNotice(ActionEvent event) {
         try {
-            main.showNotice();
+            //System.out.println(postText.getText());
+            main.P.setNotice(postText.getText());
+            main.mainnotice=postText.getText();
+            notice.setText(postText.getText());
+            main.P.setMood("policenotice");
+            Enumeration<String> keys = main.hashtable.keys();
+            while(keys.hasMoreElements()){
+                String key = keys.nextElement();
+                NetworkUtil nc=main.hashtable.get(key);
+                nc.write(main.P);
+                //System.out.println("Value of "+key+" is: "+hm.get(key));
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -103,33 +141,25 @@ public class policeHomeController {
         }
     }
 
+    @FXML
+    void showAllUsers(ActionEvent event) {
+        try {
+            main.showNotice();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     void initializeColumns() {
         TableColumn<Data, String> name = new TableColumn<>("Name");
         name.setMinWidth(100);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         name.setCellFactory(TextFieldTableCell.<Data>forTableColumn());
 
-        /*name.setOnEditCommit(
-                (TableColumn.CellEditEvent<Data, String> t) -> {
-                    ((Data) t.getTableView().getItems().get(
-                            t.getTablePosition().getRow())
-                    ).setFirstName(t.getNewValue());
-                }
-        );*/
-
         TableColumn<Data, String> post = new TableColumn<>("Post");
-        post.setMinWidth(740);
+        post.setMinWidth(806);
         post.setCellValueFactory(new PropertyValueFactory<>("post"));
         post.setCellFactory(TextFieldTableCell.<Data>forTableColumn());
-
-        /*post.setOnEditCommit(
-                (TableColumn.CellEditEvent<Person, String> t) -> {
-                    ((Person) t.getTableView().getItems().get(
-                            t.getTablePosition().getRow())
-                    ).setLastName(t.getNewValue());
-                }
-        );*/
-
 
         TableColumn<Data, String> actionCol = new TableColumn<>("Action");
         actionCol.setCellValueFactory(new PropertyValueFactory<>("action"));
@@ -165,4 +195,5 @@ public class policeHomeController {
 
         allPosts.getColumns().addAll(name, post, actionCol);
     }
-}
+
+    }

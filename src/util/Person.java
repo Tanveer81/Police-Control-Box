@@ -23,6 +23,37 @@ public class Person implements Serializable {
     private String presentAddress;
     private  String perAddress;
     private String clientpost;
+    private String notice;
+    private String policepost;
+    private String dob;
+
+
+    public String getDob() {
+        return dob;
+    }
+
+
+
+    public void setDob(String dob) {
+        this.dob = dob;
+    }
+
+    public String getNotice() {
+        return notice;
+    }
+
+    public void setNotice(String notice) {
+        this.notice = notice;
+    }
+
+    public String getPolicepost() {
+        return policepost;
+    }
+
+    public void setPolicepost(String policepost) {
+        this.policepost = policepost;
+    }
+
 
     public String getEmail() {
         return email;

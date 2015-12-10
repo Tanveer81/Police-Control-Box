@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="src/server/mysql-connector-java-5.1.35-bin.jar"/>
+	<classpathentry exported="true" kind="var" path="USER_HOME/Downloads/Compressed/OzekiSmsClientv4/OzekiSmsClient.jar"/>
+	<classpathentry kind="output" path="out/production/Police Control Box final"/>
+</classpath>

@@ -61,7 +61,7 @@ public class HomeController {
     private Button contacts;
 
     @FXML
-    private Text notice;
+    public Text notice;
 
     @FXML
     private Button allPostsButton;

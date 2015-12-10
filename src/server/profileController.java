@@ -3,22 +3,24 @@ package server;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
-public class singleUserController {
+public class profileController {
     Main main;
     void setMain(Main main){
         this.main=main;
-        //Image img = new Image(server.Main.class.getResourceAsStream("DMP logo.png"));
-        //dmpImage.setImage(img);
+        Image img = new Image(server.Main.class.getResourceAsStream("DMP logo.png"));
+        dmpImage.setImage(img);
     }
 
     @FXML
     private Button noticeButton;
 
     @FXML
-    private Text occupation;
+     Text occupation;
 
     @FXML
     private Button developers;
@@ -33,31 +35,36 @@ public class singleUserController {
     private Button home;
 
     @FXML
-    private Text religion;
+     Text religion;
 
     @FXML
-    private Text fName;
+     Text fName;
 
     @FXML
-    private Text presentAddress;
+    Text mobile;
 
     @FXML
-    private Text name;
+     Text presentAddress;
 
     @FXML
-    private Text voterID;
+     Text name;
 
     @FXML
-    private Text permanentAddress;
+     Text voterID;
 
     @FXML
-    private Text mName;
+     Text permanentAddress;
+
+    @FXML
+     Text mName;
 
     @FXML
     private Button contacts;
 
     @FXML
-    private Text notice;
+     Text notice;
+    @FXML
+    public TextField emni;
 
     @FXML
     void showUsers(ActionEvent event) {

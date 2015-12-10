@@ -1,8 +1,6 @@
 package util;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.Socket;
 
 /**
@@ -10,9 +8,16 @@ import java.net.Socket;
  */
 public class NetworkUtil
 {
-    private Socket socket;
-    private ObjectOutputStream oos;
-    private ObjectInputStream ois;
+    public Socket socket;
+    public ObjectOutputStream oos;
+    public ObjectInputStream ois;
+    public FileInputStream fis = null;
+    public BufferedInputStream bis = null;
+    public OutputStream os = null;
+    public FileOutputStream fos = null;
+    public BufferedOutputStream bos = null;
+    public InputStream is = null;
+
 
     public NetworkUtil(String s, int port) {
         try {
@@ -39,7 +44,7 @@ public class NetworkUtil
         try {
             o=ois.readObject();
         } catch (Exception e) {
-            //System.out.println("Reading Error in network : " + e.toString());
+            System.out.println("Reading Error in network : " + e.toString());
         }
         return o;
     }

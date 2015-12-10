@@ -16,23 +16,28 @@ import java.util.Hashtable;
 
 public class Main extends Application {
     Stage stage;
-    policeHomeController homeControl;
+    homeController homeControl;
     allPostsController allPostControl;
     developerController developerControl;
     noticeController noticeControl;
     usersController usersControl;
-    singleUserController singleUserControl;
+    profileController singleUserControl;
     contactsController contactsControl;
-    public Person P;
+    public Person P=new Person();
+    public Person q=new Person();
     Boolean hasGot=false;
     public Hashtable<String, NetworkUtil> hashtable=new Hashtable<String,NetworkUtil>();
     final ObservableList<Data> data = FXCollections.observableArrayList();
+    final ObservableList<allUsers> w = FXCollections.observableArrayList();
+
+    public String mainnotice="hello";
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         stage = primaryStage;
         try{
             showPoliceHome();
+            allUsersShow();
             Thread thr = new Thread(new Server(this));
             thr.start();
         }
@@ -48,17 +53,24 @@ public class Main extends Application {
         Parent root = loader.load();
 
         // Loading the controller
-        policeHomeController controller = loader.getController();
+        homeController controller = loader.getController();
         controller.setMain(this);
-        controller.setMain(this);
+        //controller.setMain(this);
+
         homeControl=controller;
+        controller.notice.setText(mainnotice);
         controller.allPosts.setItems(data);
+        //controller.developers.setStyle("-fx-background-color: lightgrey; -fx-text-fill: black;")
+
         controller.initializeColumns();
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1400, 700);
+        //Scene scene = new Scene(controller.tableview);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
-        stage.setResizable(false);
+        //stage.setResizable(false);
 
     }
 
@@ -76,26 +88,63 @@ public class Main extends Application {
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
 
-    public void showSingleUser() throws Exception {
+    public void showProfile(String s) throws Exception {
 
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("singeUser.fxml"));
+        loader.setLocation(getClass().getResource("profile.fxml"));
         Parent root = loader.load();
-
         // Loading the controller
-        singleUserController controller = loader.getController();
-        controller.setMain(this);
-        controller.setMain(this);
+        profileController controller = loader.getController();
         singleUserControl=controller;
+        //database
+        MySQLConnect oc=new MySQLConnect("localhost","PCB","root","Tanveer@81");
+        try
+        {
+            String query = "select * from client";
+            ResultSet rs = oc.searchDB(query);
+            System.out.println("client List");
+            while(rs.next())
+            {
+                //System.out.println(rs.getString("name")+" "+rs.getString("vooterID"));
+                if(rs.getString("vooterID").equals(s)){
+                    //System.out.println(rs.getString("name")+" "+rs.getString("vooterID"));
+                    controller.name.setText(rs.getString("name"));
+                    controller.fName.setText(rs.getString("fName"));
+                    controller.mName.setText(rs.getString("mName"));
+                    controller.voterID.setText(rs.getString("vooterID"));
+                    controller.mobile.setText(Integer.toString(rs.getInt("mobileNo")));
+                    controller.presentAddress.setText(rs.getString("presentAddress"));
+                    controller.permanentAddress.setText(rs.getString("permanentAddress"));
+                    break;
+                }
+
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Exception in listClient: " + e);
+        }
+        finally
+        {
+            oc.close();
+        }
+
+        controller.setMain(this);
+        //controller.setMain(this);
+
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
@@ -114,7 +163,9 @@ public class Main extends Application {
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
@@ -132,7 +183,9 @@ public class Main extends Application {
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
@@ -150,7 +203,9 @@ public class Main extends Application {
 
         // Set the primary stage
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
@@ -165,10 +220,13 @@ public class Main extends Application {
         noticeController controller = loader.getController();
         controller.setMain(this);
         noticeControl=controller;
-
         // Set the primary stage
+        controller.initializeColumns();
+        controller.Allusers.setItems(w);
         stage.setTitle("Police Control Box");
-        stage.setScene(new Scene(root, 1000, 600));
+        Scene scene=new Scene(root, 1000, 600);
+        scene.getStylesheets().add(getClass().getResource("batman.css").toExternalForm());
+        stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
     }
@@ -176,6 +234,68 @@ public class Main extends Application {
 
 
     //DATABASE
+
+    public void getProfile(String s){
+        MySQLConnect oc=new MySQLConnect("localhost","PCB","root","Tanveer@81");
+        try
+        {
+            String query = "select * from client";
+            ResultSet rs = oc.searchDB(query);
+            System.out.println("client List");
+            while(rs.next())
+            {
+                System.out.println(rs.getString("name")+" "+rs.getString("email"));
+                if(rs.getString("vooterID")==s){
+                    q.setName(rs.getString("name"));
+                    q.setEmail(rs.getString("email"));
+                    q.setfName(rs.getString("fName"));
+                    q.setmName(rs.getString("mName"));
+                    q.setPresentAddress(rs.getString("presentAddress"));
+                    q.setPerAddress(rs.getString("permanentAddress"));
+                    q.setVoterId(rs.getString("vooterID"));
+                    q.setMobileNo(Integer.toString(rs.getInt("mobileNo")));
+                    q.setDob(rs.getString("dob"));
+                    break;
+                }
+
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Exception in listClient: " + e);
+        }
+        finally
+        {
+            oc.close();
+        }
+
+    }
+
+
+    public void allUsersShow()
+    {
+        MySQLConnect oc=new MySQLConnect("localhost","PCB","root","Tanveer@81");
+        try
+        {
+            String query = "select * from client";
+            ResultSet rs = oc.searchDB(query);
+            System.out.println("client List");
+            while(rs.next())
+            {
+                w.add(new allUsers(rs.getString("name"),rs.getString("vooterID")));
+                //System.out.println(rs.getString("name")+" "+rs.getString("vooterID"));
+
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Exception in listClient: " + e);
+        }
+        finally
+        {
+            oc.close();
+        }
+    }
 
     public static void listClient()
     {

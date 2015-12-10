@@ -27,6 +27,8 @@ public class Main extends Application {
     public boolean hasgot=false;
     public boolean a=false;
     public String s="login";
+    public String mainnotice;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         try {
@@ -74,6 +76,7 @@ public class Main extends Application {
         loader.setLocation(getClass().getResource("Home.fxml"));
         Parent root = loader.load();
         HomeController controller = loader.getController();
+        controller.notice.setText(mainnotice);
         homeControl=controller;
         stage.setTitle("Client");
         stage.setScene(new Scene(root, 1000, 600));

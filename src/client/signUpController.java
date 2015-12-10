@@ -7,6 +7,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+import java.io.*;
+import java.net.ServerSocket;
+import java.net.Socket;
+
 /**
  * Created by emon on 11/27/2015.
  */
@@ -31,6 +35,7 @@ public class signUpController {
     private TextField mname;
     @FXML
     private Button signUp;
+
     @FXML
     private TextField address;
     @FXML
@@ -44,15 +49,14 @@ public class signUpController {
 
     public void setSignUp(ActionEvent event) throws Exception {
         try {
-            if(name.getText().isEmpty()||fname.getText().isEmpty()||mname.getText().isEmpty()||pword.getText().isEmpty()||vid.getText().isEmpty()||address.getText().isEmpty()||peraddress.getText().isEmpty()||mno.getText().isEmpty()) {
+            if (name.getText().isEmpty() || fname.getText().isEmpty() || mname.getText().isEmpty() || pword.getText().isEmpty() || vid.getText().isEmpty() || address.getText().isEmpty() || peraddress.getText().isEmpty() || mno.getText().isEmpty()) {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Invalid");
                 alert.setHeaderText("Cannot Sign Up");
                 alert.setContentText("You must provide all informations");
                 alert.showAndWait();
-            }
-             else{
-                if(pword.getText().equals(repword.getText())) {
+            } else {
+                if (pword.getText().equals(repword.getText())) {
                     main.showHome();
                     main.p.setName(name.getText());
                     main.p.setPassword(pword.getText());
@@ -64,8 +68,7 @@ public class signUpController {
                     main.p.setMobileNo(mno.getText());
                     main.p.setMood("signup");
                     main.nc.write(main.p);
-                }
-               else{
+                } else {
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setTitle("Invalid");
                     alert.setHeaderText("Cannot Sign Up");
@@ -86,4 +89,12 @@ public class signUpController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    void sendImage(ActionEvent event) throws IOException {
+        main.p.setMood("file");
+        main.nc.write(main.p);
+
+    }
 }
+
